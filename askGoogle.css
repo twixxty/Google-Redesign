@@ -1,0 +1,30 @@
+/* styles.css */
+
+form {
+    padding: 10px;
+    background-color: rgb(var(--theme-medium));
+    box-shadow: none;
+    margin-left: -13.6px;
+}
+
+label {
+    display: none; /* Hide the label */
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+input {
+    padding: 5px;
+    background-color: rgb(var(--theme-medium));
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+input[type="submit"] {
+    background-color: rgb(var(--theme-medium));
+    color: rgb(255 255 255 / 80%);
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}

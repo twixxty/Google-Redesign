@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <link rel="icon" href=
+  "https://www.google.com/favicon.ico"
+            type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="askGoogle.css">
+  <style>
+    .ask-google-submit {
+        display: none;
+    }
+</style>
+  <script>
+    function performRemoteSubmit() {
+        // Trigger the form submission
+        document.getElementById('myForm').submit();
+    }
+</script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="phone">
+  <div id="main-wrapper" class="fancy-scrollbar">
+    <div id="main">
+      <div id="content">
+        <div id="links-container">
+          <a href="https://images.google.com">Images</a>
+          <a href="https://gmail.com">Gmail</a>
+          <a href="https://play.google.com">Store</a>
+          <a href="https://myaccount.google.com">My Account</a>
+        </div>
+        <div id="header-container">
+          <img id="logo"  src="https://assets.codepen.io/1468070/Google+Doodle.png" alt="Google Doodle" />
+        </div>
+        <div id="search-container">
+          <div id="search-input-container">
+            <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="" style="position:-webkit:absolute;">
+            <form id="myForm" action="https://www.google.com/search" method="GET" style="margin-left: -13px;" onsubmit="return validateForm()">
+              <label for="searchQuery">Search on Google:</label>
+              <input type="text" id="searchQuery" name="q" placeholder="Search anything" required>
+              <input class="ask-google-submit" type="submit" value="">
+          </form>
+          </div>
+          
+          <button id="mic-button" type="button" onclick="performRemoteSubmit()">
+            <i class="fa-light fa-magnifying-glass"></i>
+            
+          </button>
+          <button id="image-button" type="button" onclick="window.location.href='https://search.app.goo.gl/?ofl=https%3A%2F%2Flens.google&al=googleapp%3A%2F%2Flens%3Flens_data%3DKAw&apn=com.google.android.googlequicksearchbox&amv=301204913&isi=284815942&ius=googleapp&ibi=com.google.GoogleMobile&link=https%3A%2F%2Fgoo.gl%2Fiosgoogleapp%2Fdefault%3Furl%3Dgoogleapp%253A%252F%252Flens%253Fmin-version%253D180%2526lens_data%253DKAw&ifl=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fgoogle%2Fid284815942%3Fppid%3D1ac8cc35-d99c-4a1d-b909-321c8968cc74%26pt%3D9008%26mt%3D8%26ct%3D4815459-oo-lens-isb-bar-lens-cam%26UTM_campaign%3Dgoogle_search_mweb&efr=1&ct=4815459-oo-lens-isb-bar-lens-cam&utm_campaign=4815459-oo-lens-isb-bar-lens-cam&utm_source=google_search_mweb&utm_medium=owned&pt=9008&mt=8'">
+            <i class="fa-regular fa-camera"></i>
+          </button>
+        </div>
+        <div id="apps-container">
+          <a href="https://discord.com/channels/@me">
+            <i class="fa-brands fa-discord"></i>
+            <div class="label">
+              <span class="name">Discord</span>
+              <span class="url">discord.gg</span>
+            </div>
+          </a>
+          <a href="https://youtube.com">
+            <i class="fa-brands fa-youtube"></i>
+            <div class="label">
+              <span class="name">YouTube</span>
+              <span class="url">youtube.com</span>
+            </div>
+          </a>
+          <a href="https://spotify.com">
+            <i class="fa-brands fa-spotify"></i>
+            <div class="label">
+              <span class="name">Spotify</span>
+              <span class="url">spotify.com</span>
+            </div>
+          </a>
+          <a href="https://x.com">
+            <i class="fa-brands fa-twitter"></i>
+            <div class="label">
+              <span class="name">Twitter</span>
+              <span class="url">twitter.com</span>
+            </div>
+          </a>
+          <a href="https://instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+            <div class="label">
+              <span class="name">Instagram</span>
+              <span class="url">instagram.com</span>
+            </div>
+          </a>
+          <a href="https://wikipedia.com">
+            <i class="fa-brands fa-wikipedia-w"></i>
+            <div class="label">
+              <span class="name">Wikipedia</span>
+              <span class="url">wikipedia.com</span>
+            </div>
+          </a>
+          <a href="https://github.com">
+            <i class="fa-brands fa-github"></i>
+            <div class="label">
+              <span class="name">Github</span>
+              <span class="url">github.com</span>
+            </div>
+          </a>
+          <a href="https://xbox.com">
+            <i class="fa-brands fa-xbox"></i>
+            <div class="label">
+              <span class="name">Xbox</span>
+              <span class="url">xbox.com</span>
+            </div>
+          </a>
+        </div>
+        <div id="discover-container">
+          <div id="discover-toggles">
+            <button type="button">Discover</button>
+            <button type="button">Following</button> 
+          </div>
+          <div id="discover-feed">
+            <a href="#" class="discover-card">
+              <img src="image1.jpeg" />
+              <div class="discover-card-info">
+                <p class="title"> Teen Prodigy Unveils Stunning Google Redesign - A 14-Year-Old Web Developer and Designer Takes the Internet by Storm.</p>
+                <p class="desc">In a remarkable display of talent and innovation, 14-year-old web developer and designer, Hammad, has captivated the online world with a jaw-dropping redesign of Google's interface.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script>
+  <script>
+    export default function validateForm() {
+  const dispatch = useDispatch();
+  const GOOGLE_URL = "https://google.com/search?q=";
+  const [searchingPhrase, setSearchingPhrase] = useState("");
+  const isNewTabOpeningOn = useSelector(selectNewTabOpening);
+  
+  const validateForm = (e) => {
+    e.preventDefault();
+    window.open(`${GOOGLE_URL}${encodeURI(searchingPhrase)}`, !isNewTabOpeningOn && "_self");
+    dispatch(incrementSearchCount());
+    setSearchingPhrase("");
+  </script>
+  
+  </body>
+  </html>
