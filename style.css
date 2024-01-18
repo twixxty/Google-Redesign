@@ -364,4 +364,24 @@ button, a, input {
   }
 }
 
+#phone {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
 
+#main-wrapper {
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+  /* Apply styles for screens wider than 600px (PC) */
+  #phone {
+    width: 375px; /* Adjust this width to your preferred PC layout */
+    margin: auto;
+  }
+}
