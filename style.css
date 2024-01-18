@@ -74,6 +74,7 @@ button, a, input {
   margin: 100px auto;
   position: relative;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 #main-wrapper {
@@ -336,6 +337,7 @@ button, a, input {
     display: flex;
     width: 100%;
     margin: 0px auto;
+    border-radius: 0px;
   
   }
   
