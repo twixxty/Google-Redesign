@@ -344,26 +344,3 @@ button, a, input {
     flex-grow: 1;
   }
 }
-#phone{
-  border-radius: 15px; /* You can adjust the value to control the roundness of the corners */
-}
-#phone {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-
-#main-wrapper {
-  height: 100%;
-}
-
-#main {
-  height: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  /* Apply styles for screens 600px or less (mobile) */
-  #phone {
-    transform: scale(1.5); /* Adjust the scale factor as needed for zoom */
-  }
-}
