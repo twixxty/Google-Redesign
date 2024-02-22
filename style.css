@@ -226,6 +226,8 @@ button, a, input {
   color: hsl(227, 58%, 65%);
   border-top-right-radius: 0.5rem;
 }
+border-top-left-radius: 0.5rem;
+}
 
 #apps-container > a:nth-child(2) {  
   color: rgb(255, 0, 0);
