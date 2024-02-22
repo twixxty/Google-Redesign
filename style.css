@@ -221,6 +221,9 @@ button, a, input {
   font-size: 0.7rem;
   color: #ffffff80;
 }
+#apps-container > a:first-child {
+  border-top-left-radius: 0.5rem;
+}
 
 #apps-container > a:nth-child(1) {
   color: hsl(227, 58%, 65%);
